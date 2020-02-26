@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title {
+  font-family: "Great Vibes";
+  font-size: 4em;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+article > h1 {
+  font-style: italic;
+}
+
+article > img {
+  width: 100%;
+}
+
+article > p {
+  line-height: 1.8em;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.half {
+  width: 50%;
+}
+
+.three-quarter {
+  width: 75%;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li:nth-of-type(1) {
+  background-color: #ffeaa7;
+}
+
+li:nth-of-type(2) {
+  background-color: #81ecec;
+}
+
+li:nth-of-type(3) {
+  background-color: #55efc4;
+}
+
+li:nth-of-type(4) {
+  background-color: #73b9fe;
+}
+
+li:nth-of-type(5) {
+  background-color: #a29bfe;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: "Futura";
+  color: #666;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navigation {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}

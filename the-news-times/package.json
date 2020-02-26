@@ -1,0 +1,14 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "Front End Masters Content",
+  "scripts": {
+    "start": "lite-server index.html"
+  },
+  "keywords": [],
+  "author": "KRS",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
